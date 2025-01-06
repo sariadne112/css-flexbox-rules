@@ -2,7 +2,10 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"
+    />
     <link rel="stylesheet" href="../css/styles.css" />
     <link rel="stylesheet" href="../css/authentication-form.css" />
     <title>Login and Signup</title>
@@ -116,6 +119,7 @@
               minlength="12"
               maxlength="12"
               placeholder="ex.: +12336456355"
+              required
             />
           </div>
           <div class="form-input-control">
@@ -126,7 +130,9 @@
             <div class="form-input-control">
               <label for="state">State</label>
               <select id="state">
-                <option value="" disabled selected>Select your state</option>
+                <option value="" disabled selected>
+                  Select your state
+                </option>
                 <option value="TX">Texas</option>
                 <option value="IA">Iowa</option>
                 <option value="SD">South Dakota</option>
@@ -135,7 +141,9 @@
             <div class="form-input-control">
               <label for="state">City</label>
               <select id="state">
-                <option value="" disabled selected>Select your city</option>
+                <option value="" disabled selected>
+                  Select your city
+                </option>
                 <option value="new-york">New York</option>
                 <option value="washington">Washington DC</option>
                 <option value="dallas">Dallas</option>
@@ -146,11 +154,21 @@
             <p>Gender</p>
             <div class="form-group-vertical-control">
               <div class="form-radio-control">
-                <input type="radio" id="male" name="gender" value="male" />
+                <input
+                  type="radio"
+                  id="male"
+                  name="gender"
+                  value="male"
+                />
                 <label for="male">Male</label>
               </div>
               <div class="form-radio-control">
-                <input type="radio" id="female" name="gender" value="female" />
+                <input
+                  type="radio"
+                  id="female"
+                  name="gender"
+                  value="female"
+                />
                 <label for="female">Female</label>
               </div>
               <div class="form-radio-control">
